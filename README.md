@@ -1,27 +1,16 @@
-# inductive-energy-meter
+# ELECTENG 2O9 Inductive Energy Meter
 
-UoA-ELECTENG209-group20-2015
+Senses, calculates, and transmit voltage, current, power and energy values wirelessly to a CPLD to display on 7seg displays.
 
-Senses, calculates, transmits and receives voltage, current, power and energy values for an inductive load.
+The system consists of:
 
-### Transmitter:
+-  Atmel Xplained Mini 328p development board
+-  Altera MAX7000AE CPLD on a custom board
 
-Input Power source: 11-14V RMS
+## Skills involved
 
-Regulated power source: 3.3V DC
-
-Frequency: 600Hz +/-10%
-
-Resistive load in series: 20-220 Ohm
-
-Inductive load in series: 4.3mH +/-5%
-
-Shunt resistor: 0.25 Ohm +/-1%
-
-Microcontroller: Atmel ATMega328p, Atmel Xplained Mini 328p
-
-### Receiver:
-
-Input Power source: 3.3V DC
-
-Microcontroller: Altera EPM7064ELC44-10, MAX7000AE CPLD 
+- Circuit design
+- PCB design
+- Datapath and Control design for UART receiver
+- VHDL
+- C
